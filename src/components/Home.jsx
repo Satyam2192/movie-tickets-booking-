@@ -19,9 +19,9 @@ function Home() {
   }, []);
 
   return (
-    <div className="bg-gray-100 min-h-screen flex justify-center">
+    <div className="bg-gray-100 min-h-screen flex justify-center p-5">
       <div className="container mx-auto py-10">
-        <h1 className="text-4xl font-bold mb-10 text-center">TV Shows</h1>
+        <h1 className="text-4xl font-bold mb-10 text-center">Shows</h1>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {shows.map((show) => (
             <li
