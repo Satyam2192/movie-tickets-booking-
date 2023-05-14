@@ -19,7 +19,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="bg-gray-100 min-h-screen flex justify-center p-5">
+    <div className="bg-gray-100 min-h-screen flex justify-center p-8 px-12">
       <div className="container mx-auto py-10">
         <h1 className="text-4xl font-bold mb-10 text-center">Shows</h1>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -47,7 +47,8 @@ function Home() {
                   />
                 ) : (
                   <div className="bg-gray-300 h-full flex items-center justify-center">
-                    <img src={"https://img.freepik.com/free-vector/404-error-template-flat-style_23-2147757270.jpg?w=740&t=st=1684027076~exp=1684027676~hmac=023175b70090aba4b1fde400bc7274228531499cc67168199d910ba2b4ca5efe"} alt="#" className="w-full h-[340px]"/>
+                    <img src={"https://img.freepik.com/free-vector/404-error-template-flat-style_23-2147757270.jpg?w=740&t=st=1684027076~exp=1684027676~hmac=023175b70090aba4b1fde400bc7274228531499cc67168199d910ba2b4ca5efe"} alt="#" 
+                    className="w-full h-[640px]"/>
 
                   </div>
                 )}
